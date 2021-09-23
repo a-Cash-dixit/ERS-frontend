@@ -1,8 +1,7 @@
 .textdown {
   text-align: center;
   color: white;
-  padding: 8%;
-  padding-top: 0%;
+  padding: 6%;
 }
 .downloads {
   background-image: url("bg4.jpg");
@@ -34,4 +33,18 @@
   box-shadow: 0 0px 20px 0 rgba(0, 0, 0, 0.2);
   background-color: rgba(0, 0, 0, 0.2);
   transition: 0.3s;
+}
+.card-body {
+  padding-top: 0%;
+}
+.cardbox {
+  width: 60%;
+  margin-bottom: 10%;
+  margin-left: 21%;
+}
+.downimage {
+  padding-left: 30%;
+  padding-right: 30%;
+  padding-bottom: 10%;
+  padding-top: 10%;
 }

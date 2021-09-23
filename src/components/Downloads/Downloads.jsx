@@ -9,18 +9,10 @@ class Downloads extends Component {
         </div>
         <div className="row ">
           <div className="col col-lg-6 col-md-6 col-sm-6">
-            <div
-              className="card"
-              style={{
-                width: "60%",
-                marginLeft: "21%",
-                marginBottom: "10%",
-              }}
-            >
+            <div className="card cardbox">
               <img
-                style={{ padding: "20%" }}
                 src="https://somya51p.github.io/ERS-society/images/form.png"
-                class="card-img-top"
+                className="card-img-top downimage"
                 alt="loading.."
               />
               <div className="card-body">
@@ -44,18 +36,10 @@ class Downloads extends Component {
             </div>
           </div>
           <div className="col col-lg-6 col-md-6 col-sm-6">
-            <div
-              className="card"
-              style={{
-                width: "60%",
-                marginBottom: "10%",
-                marginLeft: "21%",
-              }}
-            >
+            <div className="card cardbox">
               <img
-                style={{ padding: "20%" }}
                 src="https://somya51p.github.io/ERS-society/images/report.png"
-                className="card-img-top"
+                className="card-img-top downimage"
                 alt="loading..."
               />
               <div className="card-body">
