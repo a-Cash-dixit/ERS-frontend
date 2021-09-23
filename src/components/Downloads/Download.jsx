@@ -3,11 +3,11 @@ import "./Downloads.scss";
 class Downloads extends Component {
   render() {
     return (
-      <div className="container downloads">
+      <div className="container-fluid downloads">
         <div className="row row-md-12 row-sm-12 row-lg-12">
           <h1 className="textdown">Register Now!</h1>
         </div>
-        <div className="row">
+        <div className="row ">
           <div className="col col-lg-6 col-md-6 col-sm-6">
             <div
               className="card"
@@ -18,14 +18,14 @@ class Downloads extends Component {
               }}
             >
               <img
-                style={{ padding: "10%" }}
+                style={{ padding: "20%" }}
                 src="https://somya51p.github.io/ERS-society/images/form.png"
                 class="card-img-top"
                 alt="loading.."
               />
               <div className="card-body">
                 <h5 className="card-title">
-                  <b>Membership Form</b>
+                  <b style={{ color: "Pink" }}>Membership Form</b>
                   <br />
                   <small>
                     Fill this{" "}
@@ -53,14 +53,14 @@ class Downloads extends Component {
               }}
             >
               <img
-                style={{ padding: "10%" }}
+                style={{ padding: "20%" }}
                 src="https://somya51p.github.io/ERS-society/images/report.png"
                 className="card-img-top"
                 alt="loading..."
               />
               <div className="card-body">
                 <h5 className="card-title">
-                  <b>Members</b>
+                  <b style={{ color: "Pink" }}>Members</b>
                   <br />
                   <small>
                     After submitting the form, check your name in this{" "}
