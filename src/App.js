@@ -7,6 +7,7 @@ import Footer from "./components/Footer/Footer";
 import Event from "./components/Event/Event";
 import Position from "./components/Position_Holder/Position_Holder";
 import Gallery from "./components/Gallery/Gallery";
+import Downloads from "./components/Downloads/Downloads";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Gallery />
       <Team />
       <Position />
+      <Downloads />
       <Map />
       <Footer />
     </div>

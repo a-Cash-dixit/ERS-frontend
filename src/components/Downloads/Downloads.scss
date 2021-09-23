@@ -1,0 +1,50 @@
+.textdown {
+  text-align: center;
+  color: white;
+  padding: 6%;
+}
+.downloads {
+  background-image: url("bg4.jpg");
+}
+.a:link {
+  color: red;
+}
+.a:visited {
+  color: green;
+}
+.a:hover {
+  color: hotpink;
+  background-color: rgb(1, 12, 1);
+}
+.a:active {
+  color: blue;
+  background-color: hotpink;
+}
+.card-title {
+  color: aliceblue;
+  text-transform: inherit;
+  text-overflow: inherit;
+  text-emphasis: none;
+  text-shadow: lawngreen;
+  text-orientation: inherit;
+  size: inherit;
+}
+.card {
+  box-shadow: 0 0px 20px 0 rgba(0, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+}
+.card-body {
+  padding-top: 0%;
+}
+.cardbox {
+  width: 60%;
+  margin-bottom: 10%;
+  margin-left: 21%;
+}
+.downimage {
+  padding-left: 30%;
+  padding-right: 30%;
+  padding-bottom: 10%;
+  padding-top: 10%;
+}
